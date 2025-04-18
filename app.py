@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load model and scaler
-model = joblib.load("xgb_bandgap_model.joblib")
+model = joblib.load("xgb_perovskite_model.joblib")
 scaler = joblib.load("scaler.joblib")
 
 st.title("🔮 Band Gap Predictor for Inorganic Double Perovskites")
