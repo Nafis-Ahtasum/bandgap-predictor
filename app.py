@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the trained model and scaler
-model = joblib.load("xgb_bandgap_model.joblib")
+model = joblib.load("xgb_perovskite_model.joblib")
 scaler = joblib.load("scaler.joblib")
 
 st.set_page_config(page_title="Band Gap Predictor", layout="centered")
